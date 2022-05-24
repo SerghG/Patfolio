@@ -1,0 +1,170 @@
+body {
+    background-image: url(Imagenes/IMG_FONDO_PP.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    border: none;
+}
+
+
+@media screen and (min-width: 700px) {
+    .titulo{
+        font-size: 75px;
+        text-align: center;
+        opacity: 1;
+    }
+    
+     .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .column {
+      float: left;
+      width: 49%;
+      padding: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+   .titulo{
+        font-size: 60px;
+        text-align: center;
+        opacity: 1;
+    }
+    
+     .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .column {
+      float: left;
+      width: 100%;
+      padding: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titulo{
+        font-size: 40px;
+        text-align: center;
+        opacity: 1;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .column {
+      float: left;
+      width: 100%;
+      padding: 5px;
+    }
+}
+
+
+.texto-comisions{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+
+.img-logo-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.texto_centrado_blanco_titulo{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.texto_centrado_blanco_subtitulo{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.texto_centrado_blanco_texto{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+
+.css-button {
+	font-family: Arial Black;
+	color: #FFFFFF;
+	font-size: 17px;
+	border-radius: 5px;
+	border: 1px #84bcf3 solid;
+	background: linear-gradient(180deg, #bddcfa 5%, #80b5ea 100%);
+	text-shadow: 1px 1px 1px #528ecc;
+    
+	box-shadow: inset 1px 1px 2px 0px #dcecfb;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+    width: 100%
+}
+.css-button:hover {
+	background: linear-gradient(180deg, #80b5ea 5%, #bddcfa 100%);
+}
+.css-button-icon {
+	padding: 10px 10px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+.css-button-text {
+	padding: 10px 30%;
+}
+
+.tablaSinBordes{
+    border: none;
+    width: 100%;
+    align-content: center;
+}
+
+.div-botones{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.img-vertical-grande{
+    height: 750px; 
+}
+
+.img-horizontal-grande{
+    width: 50%
+}
+
+
+
+.column-insideRow{
+  float: left;
+  width: 50%;
+}
+
+.img-return-to-main{
+    width: 30%;
+    margin-left: 33.33%;
+}
+

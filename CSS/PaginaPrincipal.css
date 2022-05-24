@@ -1,0 +1,106 @@
+body {
+    background-image: url(Imagenes/IMG_FONDO_PP.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    border: none;
+}
+
+.img-return-to-main{
+    width: 40%;
+    margin-left: 55%;
+}
+
+
+@media screen and (min-width: 700px) {
+    .h1_princpipal{
+        font-size: 75px;
+        text-align: center;
+        opacity: 1;
+    }
+    
+     .imagenEnGrid{
+        margin: 5px;
+        height: 500px; 
+        width: 100%;
+    }
+
+    .textoEnGrid{
+        margin: 5px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+     .img_pp{
+        height: 1000px; 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+   .h1_princpipal{
+        font-size: 25px;
+        text-align: center;
+        opacity: 1;
+    }
+    
+     .imagenEnGrid{
+        margin: 5px;
+        height: 300px; 
+        width: 100%;
+    }
+
+    .textoEnGrid{
+        margin: 5px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+     .img_pp{
+        height: 800px; 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .h1_princpipal{
+        font-size: 20px;
+        text-align: center;
+        opacity: 1;
+    }
+    
+    .imagenEnGrid{
+        margin: 5px;
+        height: 200px; 
+        width: 100%;
+    }
+
+    .textoEnGrid{
+        margin: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .img_pp{
+        height: 450px; 
+        width: 100%;
+    }
+}
+
+.translucid{
+    background-color: black;
+    opacity: 0.7;
+}
+
+.tablaSinBordes{
+    border: none;
+    width: 100%;
+}
